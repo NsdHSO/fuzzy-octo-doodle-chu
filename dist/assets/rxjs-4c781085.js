@@ -1,0 +1,1 @@
+import{bd as o,be as n,bf as u,bg as m,aX as b,aM as c,aN as f}from"./@angular/core-3d1a9ecd.js";function l(r){return new o(function(e){n(r()).subscribe(e)})}function p(){for(var r=[],e=0;e<arguments.length;e++)r[e]=arguments[e];var s=u(r),t=m(r,1/0),a=r;return a.length?a.length===1?n(a[0]):c(t)(f(a,s)):b}export{l as d,p as m};

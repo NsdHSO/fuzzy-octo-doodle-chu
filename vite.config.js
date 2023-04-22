@@ -16,8 +16,8 @@ export default defineConfig({
         sourcemap: false,
         rollupOptions: {
             output: {
+
                 manualChunks: {
-                    remoteEntry: ['@module-federation/client/entry'],
                     vendor: [],
                     ...renderChunks(dependencies),
                 },
