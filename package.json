@@ -1,0 +1,31 @@
+{
+  "name": "fuzzy-octo-doodle-chu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.4",
+    "vite": "^4.3.1"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.7",
+    "@angular/common": "15.2.8",
+    "@angular/compiler": "15.2.8",
+    "@angular/core": "15.2.8",
+    "@angular/platform-browser": "15.2.8",
+    "@angular/router": "15.2.8",
+    "zone.js": "^0.11.8"
+  }
+}
